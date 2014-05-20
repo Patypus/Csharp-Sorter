@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AlphabetSorter.exe" version="1.0.0.0" publicKeyToken="6751ad5244443637" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AlphabetSorter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AlphabetSorter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AlphabetSorter.exe" size="6144">
+      <assemblyIdentity name="AlphabetSorter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7f/AAxwm1Tv1b96Z1KDyDoCcrh3QxWAoiZ4vFeqaKUU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AlphabetSorter.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=APOLLO\Patrick" issuerKeyHash="5af3024d86e6dcbe64c24fec0b034e419b89d7c3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>n2Fp8yoDr3KABa3Dbv1aEwN/A5+rraTMvPl+Q3z+Ou8=</DigestValue></Reference></SignedInfo><SignatureValue>T+ZDaVQBrs0P9azZNLPHtDkcVHGSlJbu9ViNhiFnXWcY29azGBiR7eEMc4azVPe/S0C2owBGPTdnNNvLOawYfJuvmknbUpIqb30g3ZY0qqeYiET8ddPz6KExqX/TuXcb9AizI6Ki+ejWpm1DuLZa1HoVjbgEY7SJaO6yGmNqyMM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sUbOcbCVG1BAhL43n8EbsyGY+nK5sHtK7BGo7gcFwsidCVPBCG97zoj00nja5/V+AFnQkOzoWDzKr43S9fPg45u31SlTYFlckwf8LxXg2Mbr0NPVfWuXrAA6E53g4KyEK3cSrOFcTF4s6uZ1QVRgXyTwYIpoF9mWuxwi+HSuLOs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ef3afe7c437ef9bccca4adab9f037f03135afd6ec3ad058072af032af369619f" Description="" Url=""><as:assemblyIdentity name="AlphabetSorter.exe" version="1.0.0.0" publicKeyToken="6751ad5244443637" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=APOLLO\Patrick</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EghnJRXV+3VX+57kpfmE4LpzbwnuD9T4rmsBbufOsnk=</DigestValue></Reference></SignedInfo><SignatureValue>MzbK6C6GaYKBJR7ta6tBpLU1gdaNRTH1/I/MojGPbWk0daeA8yXwO1GZ+HwfHhfRLpbxhxIfTAN+Y5nPKK8890mFTZ1Y/bVYDrRJipEuP/CUMLoKpuRBo6R4B0yp/d1bhTDStv2zTkGHG41/B957nwG2HfWGxjvdYNA1A2Q14Lo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sUbOcbCVG1BAhL43n8EbsyGY+nK5sHtK7BGo7gcFwsidCVPBCG97zoj00nja5/V+AFnQkOzoWDzKr43S9fPg45u31SlTYFlckwf8LxXg2Mbr0NPVfWuXrAA6E53g4KyEK3cSrOFcTF4s6uZ1QVRgXyTwYIpoF9mWuxwi+HSuLOs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQQiqC+hzdC7xK3cM9x+62tzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBQAE8ATABMAE8AXABQAGEAdAByAGkAYwBrMB4XDTE0MDUyMDIxMDI1MloXDTE1MDUyMTAzMDI1MlowJzElMCMGA1UEAx4cAEEAUABPAEwATABPAFwAUABhAHQAcgBpAGMAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsUbOcbCVG1BAhL43n8EbsyGY+nK5sHtK7BGo7gcFwsidCVPBCG97zoj00nja5/V+AFnQkOzoWDzKr43S9fPg45u31SlTYFlckwf8LxXg2Mbr0NPVfWuXrAA6E53g4KyEK3cSrOFcTF4s6uZ1QVRgXyTwYIpoF9mWuxwi+HSuLOsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBiZG5Ic25sz5D2u0Oy6K+7n9i5iNqzMYoRnhD0MRrhR8x8IERPx0KZJ/SzCKqYJj0Mrvsv5PApAkqllGNiOycZZRxgz6FgV7BVBk1AQPk1t1e952xapVGktWmyV9JoCqzkj+OsGHYtOuUADMI0WF9vs4G8kbMSutoyKSkaz1Pj4g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
