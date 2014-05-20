@@ -1,6 +1,0 @@
-D:\Code\C#\Sorter\AlphabetSorter\AlphabetSorter\bin\Debug\AlphabetSorter.exe.config
-D:\Code\C#\Sorter\AlphabetSorter\AlphabetSorter\bin\Debug\AlphabetSorter.exe
-D:\Code\C#\Sorter\AlphabetSorter\AlphabetSorter\bin\Debug\AlphabetSorter.pdb
-D:\Code\C#\Sorter\AlphabetSorter\AlphabetSorter\obj\Debug\AlphabetSorter.csprojResolveAssemblyReference.cache
-D:\Code\C#\Sorter\AlphabetSorter\AlphabetSorter\obj\Debug\AlphabetSorter.exe
-D:\Code\C#\Sorter\AlphabetSorter\AlphabetSorter\obj\Debug\AlphabetSorter.pdb
